@@ -1,0 +1,70 @@
+h1.name{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 100px;
+    width: fit-content;
+    border: 1px solid black;
+    background-color: blue;
+    padding: 10px;
+}
+
+.main{
+    text-align: center;
+    margin-top: -67px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    background-color: darkolivegreen;
+    width: 51.2%;
+}
+.main h1{
+   padding-left:auto;
+   padding-right: auto;
+   display: inline-block;
+   margin-left: 20px;
+   font-size: 40px;
+}
+.buttons{
+    width:51.2%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    
+}
+button{
+    width:33.33%;
+    padding: 5px;
+    font-size: large;
+    cursor: pointer;
+    background-color: aqua;
+    border:1px solid black;
+    margin-right: -4px;
+    outline: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+ @media (max-width:800px){
+    body{
+        margin: 0px;
+        overflow: hidden;
+    }
+    h1.name{
+      text-align: center;
+      font-size: 50px;
+      width: 100%;
+      margin: 0px; 
+      padding: 0px;
+      padding-top: 10px;
+      padding-bottom: 10px; 
+    }   
+    .main{
+      width: 100%; 
+      margin: 0px; 
+      padding: 0px;    
+    }
+    .buttons{
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+ }
